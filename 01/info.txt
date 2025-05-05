@@ -1,0 +1,84 @@
+Technical Details - Product Catalog Webpage
+
+1. File Structure:
+- index.html: Main HTML structure
+- styles.css: CSS styling
+- script.js: JavaScript functionality
+
+2. Technologies Used:
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Responsive Design
+
+3. Features:
+a) Product Display:
+   - Tabular format
+   - Product images
+   - Product names
+   - Prices in INR (₹)
+   - Product descriptions
+   - Responsive image sizing
+
+b) Pagination:
+   - Items per page: 10
+   - Previous/Next navigation
+   - Current page indicator
+   - Dynamic page count
+   - Disabled state for navigation buttons
+
+c) Responsive Design:
+   - Mobile-friendly layout
+   - Flexible table structure
+   - Adaptive image sizes
+   - Responsive padding and margins
+
+4. Data Structure:
+- Products stored in JavaScript array
+- Each product object contains:
+  * image (URL)
+  * name (String)
+  * price (Number)
+  * description (String)
+
+5. Styling Features:
+- Clean table layout
+- Box shadow effects
+- Hover transitions
+- Disabled button states
+- Responsive breakpoints
+- Border radius for images
+- Consistent color scheme
+
+6. JavaScript Functions:
+- displayProducts(): Renders products for current page
+- updatePaginationControls(): Updates pagination UI
+- previousPage(): Handles previous page navigation
+- nextPage(): Handles next page navigation
+- Event listener for initial page load
+
+7. Browser Compatibility:
+- Modern browser support
+- Flexbox layout
+- CSS Grid support
+- ES6 JavaScript features
+
+8. Performance Considerations:
+- Optimized image loading
+- Efficient DOM manipulation
+- Minimal dependencies
+- No external libraries required
+
+9. User Interface:
+- Clear navigation controls
+- Visual feedback on interactions
+- Consistent spacing
+- Readable typography
+- Proper content alignment
+
+10. Accessibility:
+- Semantic HTML structure
+- Alt text for images
+- Clear button labels
+- Proper heading hierarchy
+- Keyboard navigation support

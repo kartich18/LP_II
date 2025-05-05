@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mug Store - Product Listing</title>
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+            height: 200px;
+            object-fit: contain;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mug Store</a>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="categoryDropdown" data-bs-toggle="dropdown">
+                    Filter by Category
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">All Products</a></li>
+                    <li><a class="dropdown-item" href="#">Ceramic Mugs</a></li>
+                    <li><a class="dropdown-item" href="#">Coffee Mugs</a></li>
+                    <li><a class="dropdown-item" href="#">Travel Mugs</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+            <!-- Product Card 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x300?text=Ceramic+Mug" class="card-img-top" alt="Ceramic Mug">
+                    <div class="card-body">
+                        <h5 class="card-title">Ceramic Mug 11oz</h5>
+                        <p class="card-text">Classic white ceramic mug perfect for daily use.</p>
+                        <p class="card-text"><small class="text-muted">USD 4.40</small></p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x300?text=Accent+Coffee+Mug" class="card-img-top" alt="Accent Coffee Mug">
+                    <div class="card-body">
+                        <h5 class="card-title">Accent Coffee Mug 11oz</h5>
+                        <p class="card-text">Stylish mug with colored handle. Available in multiple colors.</p>
+                        <p class="card-text"><small class="text-muted">USD 5.52</small></p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x300?text=Ceramic+Mug+15oz" class="card-img-top" alt="Ceramic Mug 15oz">
+                    <div class="card-body">
+                        <h5 class="card-title">Ceramic Mug 15oz</h5>
+                        <p class="card-text">Large capacity ceramic mug for those who need extra coffee.</p>
+                        <p class="card-text"><small class="text-muted">USD 5.66</small></p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x300?text=Black+Ceramic+Mug" class="card-img-top" alt="Black Ceramic Mug">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Ceramic Mug</h5>
+                        <p class="card-text">Elegant black ceramic mug with modern design.</p>
+                        <p class="card-text"><small class="text-muted">USD 6.88</small></p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

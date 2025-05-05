@@ -1,0 +1,89 @@
+Angular Todo List Application - Installation and Troubleshooting Guide
+
+=== Installation Steps ===
+
+1. Prerequisites:
+   - Node.js and npm must be installed
+   - Angular CLI must be installed globally
+     Command: npm install -g @angular/cli
+
+2. Create New Angular Project:
+   - Navigate to your desired directory
+   - Run: ng new todo-app
+   - When prompted:
+     * Would you like to add routing? No
+     * Which stylesheet format? CSS
+
+3. Project Setup:
+   - Navigate to project: cd todo-app
+   - Create necessary files:
+     * src/app/app.component.ts
+     * src/app/app.component.html
+     * src/app/app.component.css
+     * src/app/app.module.ts
+
+4. Required Dependencies:
+   - FormsModule for two-way binding
+   - CommonModule for structural directives
+
+5. Run Application:
+   - Command: ng serve
+   - Access at: http://localhost:4200
+
+=== Common Troubleshooting Steps ===
+
+1. "Cannot find module '@angular/core'"
+   Solution:
+   - Ensure you're in the correct directory
+   - Run: npm install
+   - Check if node_modules folder exists
+
+2. "Can't bind to 'ngModel'"
+   Solution:
+   - Import FormsModule in app.module.ts
+   - Add FormsModule to imports array in @NgModule
+
+3. "*ngFor/*ngIf not working"
+   Solution:
+   - Import CommonModule in app.module.ts
+   - Add CommonModule to imports array in @NgModule
+   - For standalone components, add imports in @Component decorator
+
+4. "Port 4200 already in use"
+   Solution:
+   - Use different port: ng serve --port 4300
+   - Or kill process using port 4200
+
+5. "Compilation errors"
+   Solution:
+   - Check console for specific error messages
+   - Ensure all required imports are present
+   - Verify component is properly declared in app.module.ts
+
+6. Component Communication Issues:
+   - Verify component selector matches in HTML
+   - Check if component is declared in app.module.ts
+   - Ensure proper data binding syntax
+
+7. Style Issues:
+   - Check if styles.css is properly imported
+   - Verify component-specific CSS file is referenced
+   - Check for CSS syntax errors
+
+=== Project Structure ===
+todo-app/
+├── src/
+│   ├── app/
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.css
+│   │   └── app.module.ts
+│   ├── styles.css
+│   └── main.ts
+└── package.json
+
+=== Additional Notes ===
+- Keep Angular CLI updated: npm update -g @angular/cli
+- Clear cache if needed: npm cache clean --force
+- Check for TypeScript version compatibility
+- Use ng version to verify Angular installation

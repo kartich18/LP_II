@@ -1,0 +1,87 @@
+Technical Details - Restaurant Menu Website
+
+1. File Structure:
+- index.html: Main HTML structure
+- styles.css: CSS styling
+
+2. Technologies Used:
+- HTML5
+- CSS3
+- Responsive Design
+- CSS Grid & Flexbox
+
+3. Sections:
+a) Header:
+   - Restaurant name
+   - Tagline
+   - Background image
+
+b) Welcome Section:
+   - Restaurant introduction
+   - Chef's message
+   - Chef's image
+
+c) Popular Dishes:
+   - Ordered list
+   - Top 5 dishes
+
+d) Cuisines Section:
+   - Grid layout
+   - Image cards
+   - Hover effects
+
+e) Menu Section:
+   - Grid layout
+   - Dish cards with images
+   - Pricing
+   - Descriptions
+
+4. Styling Features:
+- CSS Grid for layouts
+- Flexbox for alignment
+- Responsive breakpoints
+- Hover animations
+- Box shadows
+- Color scheme:
+  * Text: #333 (Dark Gray)
+  * Accent: #e67e22 (Orange)
+  * Background: #f9f9f9 (Light Gray)
+
+5. Image Handling:
+- Responsive images
+- Object-fit cover
+- Border radius
+- Overlay effects
+- Placeholder images from picsum.photos
+
+6. Responsive Breakpoints:
+- Mobile: < 768px
+- Tablet & Desktop: > 768px
+
+7. Design Elements:
+- Card-based layout
+- Shadow effects
+- Gradient overlays
+- Border radius
+- Typography hierarchy
+
+8. Performance Considerations:
+- Optimized images
+- Minimal CSS
+- No external dependencies
+- Fast loading time
+
+9. Accessibility:
+- Semantic HTML
+- Alt text for images
+- Color contrast
+- Clear typography
+- Proper heading structure
+
+10. Customization Points:
+- Restaurant name
+- Menu items
+- Prices
+- Images
+- Color scheme
+- Typography

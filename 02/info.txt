@@ -1,0 +1,97 @@
+Technical Details - Personal Portfolio Website
+
+1. File Structure:
+- index.html: Main HTML structure
+- styles.css: CSS styling
+
+2. Technologies Used:
+- HTML5
+- CSS3
+- Responsive Design
+- CSS Grid & Flexbox
+
+3. Sections:
+a) Navigation:
+   - Fixed header
+   - Smooth scroll navigation
+   - Responsive menu
+
+b) Hero Section:
+   - Full viewport height
+   - Profile picture
+   - Name and title
+   - Centered layout
+
+c) About Section:
+   - Personal introduction
+   - Professional summary
+
+d) Skills Section:
+   - Grid layout
+   - Hover effects
+   - Responsive card design
+
+e) Projects Section:
+   - Project cards
+   - Grid layout
+   - Shadow effects
+
+f) Education Section:
+   - Timeline style
+   - Card layout
+   - Chronological order
+
+g) Contact Section:
+   - Contact form
+   - Input validation
+   - Submit button
+
+4. Styling Features:
+- CSS Grid for layouts
+- Flexbox for alignment
+- Responsive breakpoints
+- Hover animations
+- Box shadows
+- Color scheme:
+  * Primary: #2c3e50 (Dark Blue)
+  * Secondary: #3498db (Light Blue)
+  * Background: #f8f9fa (Light Gray)
+
+5. Customization Points:
+- Profile picture URL (hero section)
+- Name and title
+- About section content
+- Skills list
+- Project details
+- Education history
+- Contact information
+
+6. Responsive Breakpoints:
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
+
+7. Browser Compatibility:
+- Modern browser support
+- Flexbox layout
+- CSS Grid support
+- CSS3 features
+
+8. Performance Considerations:
+- Optimized images
+- Minimal CSS
+- No external dependencies
+- Fast loading time
+
+9. Accessibility:
+- Semantic HTML
+- ARIA labels
+- Keyboard navigation
+- Color contrast
+- Alt text for images
+
+10. Maintenance:
+- Well-commented code
+- Organized CSS structure
+- Easy to update content
+- Modular sections

@@ -1,0 +1,37 @@
+<div class="container">
+  <h1>{{ title }}</h1>
+  
+  <div class="add-task">
+    <input 
+      type="text" 
+      [(ngModel)]="newTask" 
+      placeholder="Enter new task"
+      (keyup.enter)="addTask()"
+    >
+    <button (click)="addTask()">Add Task</button>
+  </div>
+
+  <div class="tasks-list">
+    <div *ngFor="let task of tasks" class="task-item">
+      <div *ngIf="!task.editing" class="task-display">
+        <span>{{ task.text }}</span>
+        <div class="task-actions">
+          <button (click)="startEditing(task)">Edit</button>
+          <button (click)="deleteTask(task.id)">Delete</button>
+        </div>
+      </div>
+      
+      <div *ngIf="task.editing" class="task-edit">
+        <input 
+          type="text" 
+          [(ngModel)]="editingTask" 
+          (keyup.enter)="saveEdit(task)"
+        >
+        <div class="task-actions">
+          <button (click)="saveEdit(task)">Save</button>
+          <button (click)="cancelEdit(task)">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

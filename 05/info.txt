@@ -1,0 +1,53 @@
+Bootstrap Components and Classes Used in E-commerce Product Listing Page
+
+1. Layout Components:
+   - container: Main wrapper for content with fixed-width container
+   - row: Creates horizontal groups of columns
+   - col: Basic grid column
+   - row-cols-*: Responsive column classes (row-cols-1, row-cols-md-2, row-cols-lg-3, row-cols-xl-4)
+   - g-4: Grid gap/gutter spacing utility
+
+2. Navigation Components:
+   - navbar: Main navigation container
+   - navbar-expand-lg: Responsive breakpoint for navbar expansion
+   - navbar-light: Light theme for navbar
+   - bg-light: Light background color
+   - navbar-brand: Company/brand logo styling
+
+3. Dropdown Components:
+   - dropdown: Container for dropdown menu
+   - dropdown-toggle: Button that triggers dropdown
+   - dropdown-menu: Container for dropdown items
+   - dropdown-item: Individual dropdown menu items
+
+4. Card Components:
+   - card: Container for card content
+   - card-img-top: Top image in card
+   - card-body: Main content area of card
+   - card-title: Title styling for cards
+   - card-text: Text content styling for cards
+   - h-100: Height utility to make cards equal height
+
+5. Button Components:
+   - btn: Basic button class
+   - btn-primary: Primary button style
+   - btn-secondary: Secondary button style
+
+6. Utility Classes:
+   - mt-4: Margin top spacing
+   - text-muted: Muted text color
+   - h5: Heading size utility
+   - small: Small text utility
+
+7. Responsive Design:
+   - meta viewport tag: Ensures proper responsive behavior
+   - img-fluid: Responsive image handling
+   - object-fit: Image fitting utility
+
+8. Custom Styles:
+   - card-img-top height: 200px
+   - object-fit: contain
+   - padding: 1rem
+
+Note: Bootstrap 5.3.0 CDN is used for both CSS and JavaScript components.
+JavaScript Bundle includes Popper.js for dropdown functionality.

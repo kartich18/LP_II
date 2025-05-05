@@ -1,0 +1,109 @@
+/* Header Styles */
+.ui-header {
+    background-color: #1e4d8c !important;
+    border: none !important;
+}
+
+.ui-header h1 {
+    color: #ffffff !important;
+    text-shadow: none !important;
+    font-size: 24px !important;
+    padding: 10px 0;
+}
+
+/* Club Content Styles */
+.club-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.club-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.club-info {
+    flex: 1;
+}
+
+.club-info h4 {
+    color: #1e4d8c;
+    margin: 15px 0 10px 0;
+    font-size: 18px;
+}
+
+.club-info p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.club-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #444;
+}
+
+.club-info li {
+    margin: 8px 0;
+}
+
+/* Collapsible Styles */
+.ui-collapsible {
+    margin: 10px 0 !important;
+    border-radius: 8px !important;
+    overflow: hidden;
+}
+
+.ui-collapsible-heading-toggle {
+    background-color: #1e4d8c !important;
+    color: white !important;
+    text-shadow: none !important;
+    border: none !important;
+    font-weight: normal !important;
+}
+
+.ui-collapsible-content {
+    border: 1px solid #dee2e6 !important;
+    background-color: #fff !important;
+}
+
+/* Footer Styles */
+.ui-footer {
+    background-color: #1e4d8c !important;
+    color: #ffffff !important;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.ui-footer h4 {
+    margin: 0;
+    color: #ffffff !important;
+    text-shadow: none !important;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .club-content {
+        flex-direction: row;
+    }
+    
+    .club-image {
+        width: 40%;
+        margin: 0 20px 0 0;
+    }
+    
+    .club-info {
+        width: 60%;
+    }
+}

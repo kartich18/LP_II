@@ -1,0 +1,32 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Laptop Pro X",
+            "price": 999.99,
+            "image": "https://picsum.photos/200/200?random=1",
+            "description": "High-performance laptop for professionals"
+        },
+        {
+            "id": 2,
+            "name": "Smartphone Y",
+            "price": 599.99,
+            "image": "https://picsum.photos/200/200?random=2",
+            "description": "Latest smartphone with advanced features"
+        },
+        {
+            "id": 3,
+            "name": "Wireless Headphones",
+            "price": 149.99,
+            "image": "https://picsum.photos/200/200?random=3",
+            "description": "Premium noise-canceling headphones"
+        },
+        {
+            "id": 4,
+            "name": "Smart Watch",
+            "price": 299.99,
+            "image": "https://picsum.photos/200/200?random=4",
+            "description": "Feature-rich smartwatch with health tracking"
+        }
+    ]
+}
