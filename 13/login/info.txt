@@ -1,0 +1,52 @@
+Angular Login System - Quick Setup Guide
+
+1. Create new project:
+   ng new login --standalone --routing --style=css
+   cd login
+
+2. Generate components:
+   ng generate component components/login --standalone
+   ng generate component components/register --standalone
+   ng generate component components/profile --standalone
+   ng generate service services/auth
+
+3. Update app.routes.ts:
+   - Add routes for login, register, profile
+   - Set default route to login
+
+4. Create auth service:
+   - Add user interface
+   - Implement register, login, logout methods
+   - Add user management logic
+
+5. Update components:
+   - Add forms to login/register components
+   - Add profile display logic
+   - Implement navigation between components
+
+6. Run application:
+   ng serve
+
+7. Test workflow:
+   - Register new user
+   - Login with credentials
+   - View profile
+   - Test logout
+
+Basic Commands:
+- Start dev server: ng serve
+- Build app: ng build
+- Generate component: ng generate component [name]
+- Generate service: ng generate service [name]
+
+Dependencies used:
+- @angular/core
+- @angular/common
+- @angular/forms
+- @angular/router
+
+Note: This is a basic implementation. For production:
+- Add proper data storage
+- Implement security measures
+- Add form validation
+- Add error handling

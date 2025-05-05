@@ -1,0 +1,33 @@
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .error { color: red; }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .password-wrapper {
+    position: relative;
+  }
+  .password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+  }
+  input {
+    width: 100%;
+    padding: 8px 35px 8px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
